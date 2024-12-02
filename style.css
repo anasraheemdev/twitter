@@ -1,0 +1,21 @@
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined' !important;
+}
+
+input[type=text] {
+    border: 1px solid #555555;
+    -webkit-transition: 0.1s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 2px solid #555;
+}
+
+.underline {
+    width: 30px; /* Width of the blue line */
+    height: 4px; /* Height of the blue line */
+    background-color: #1DA1F2; /* Blue color (Twitter blue) */
+    margin: 4px auto 0 auto; /* Center the line and add margin */
+  }

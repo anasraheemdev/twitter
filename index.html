@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="assets/logo-main.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>X - Twitter</title>
+</head>
+
+<body class="bg-black text-white  ">
+    <div class="flex container mx-auto my-4 relative">
+        <div class="first w-[70%] fixed right-[1000px] overflow-hidden">
+            <div class="logo invert my-4 ">
+                <svg viewBox="0 0 24 24" aria-hidden="true"
+                    class="w-8 m-auto absolute r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                    <g>
+                        <path
+                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                        </path>
+                    </g>
+                </svg>
+            </div>
+            <div class="sidebar flex justify-end">
+                <ul class="flex flex-col text-xl space-y-3 px-11">
+                    <li
+                        class="flex justify-start items-center gap-3 p-2 px-4 cursor-pointer w-fit hover:bg-[#202327] hover:rounded-3xl hover:border-0  ">
+                        <i class="fa-solid fa-house"></i>Home
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3 p-2 px-4 cursor-pointer w-fit hover:bg-[#202327] hover:rounded-3xl hover:border-0  ">
+                        <i class="fa-solid fa-magnifying-glass"></i>Explore
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3 p-2 px-4 cursor-pointer w-fit hover:bg-[#202327] hover:rounded-3xl hover:border-0  ">
+                        <i class="fa-solid fa-bell"></i>Notifications
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3 p-2 px-4 cursor-pointer w-fit hover:bg-[#202327] hover:rounded-3xl hover:border-0  ">
+                        <i class="fa-solid fa-terminal"></i>Grok
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3 p-2 px-4 cursor-pointer w-fit hover:bg-[#202327] hover:rounded-3xl hover:border-0  ">
+                        <i class="fa-solid fa-list"></i>Lists
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3 p-2 px-4 cursor-pointer w-fit hover:bg-[#202327] hover:rounded-3xl hover:border-0  ">
+                        <i class="fa-regular fa-bookmark"></i>Bookmarks
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3 p-2 px-4 cursor-pointer w-fit hover:bg-[#202327] hover:rounded-3xl hover:border-0  ">
+                        <i class="fa-solid fa-user-group"></i>Communities
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3 p-2 px-4 cursor-pointer w-fit hover:bg-[#202327] hover:rounded-3xl hover:border-0  ">
+                        <i class="fa-solid fa-money-bill"></i>Premium
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3 p-2 px-4 cursor-pointer w-fit hover:bg-[#202327] hover:rounded-3xl hover:border-0  ">
+                        <i class="fa-solid fa-user"></i>Profile
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3 p-2 px-4 cursor-pointer w-fit hover:bg-[#202327] hover:rounded-3xl hover:border-0  ">
+                        <i class="fa-solid fa-circle-info"></i>More
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3 p-2 px-4 cursor-pointer w-fit hover:bg-[#202327] hover:rounded-3xl hover:border-0  ">
+                        <i class="fa-solid fa-pen-ruler"></i></i>Developer<a href="https://www.linkedin.com/in/anasraheem/">Anas Raheem</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- Second Div -->
+
+
+
+
+
+
+        <!-- <div class="second w-full border-[1px] border-x-[#2F3336] border-y-black">
+
+            <div class="top flex 33 ">
+                <div class="left bg-red-6001 w-1/2 flex justify-center font-bold text-lg cursor-pointer">For You</div>
+                <div class="right bg-green-5001 w-1/2 flex justify-center font-bold text-lg cursor-pointer">Following</div>
+                <div class="settings "><i class="fa-solid fa-gear mx-2 text-xl cursor-pointer"></i></div>
+            </div>
+            <hr class="" style="border: 1px solid #2F3336">
+            
+
+
+
+
+
+        </div> -->
+
+
+
+
+
+
+
+
+
+
+        <div class="second w-full border-[1px] border-x-[#2F3336] border-y-black ms-72">
+            <div class="top flex 33 ">
+                <div class="left bg-red-6001 w-1/2 flex justify-center font-bold text-lg cursor-pointer">For You</div>
+                <div class="right bg-green-5001 w-1/2 flex justify-center font-bold text-lg cursor-pointer">Following</div>
+                <div class="settings "><i class="fa-solid fa-gear mx-2 text-xl cursor-pointer"></i></div>
+            </div>
+            <hr class="" style="border: 1px solid #2F3336">
+            
+            <!-- Previous Post Input Section remains the same -->
+            <div class="post-input flex p-4 border-b border-[#2F3336]">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS590A5sCtdTLbGLwJ1LrAl-P6cv829nDya1MI5X4CGnGFhzsU3N7Isog7szgrfxhejNvw&usqp=CAU" alt="Profile" class="w-12 h-12 rounded-full mr-4">
+                <div class="flex-grow">
+                    <textarea placeholder="What's happening?" class="w-full bg-transparent text-white text-xl resize-none outline-none"></textarea>
+                    <div class="flex justify-between items-center mt-4">
+                        <div class="text-[#1D9BF0] space-x-4">
+                            <i class="fa-regular fa-image cursor-pointer"></i>
+                            <i class="fa-regular fa-file-gif cursor-pointer"></i>
+                            <i class="fa-regular fa-chart-bar cursor-pointer"></i>
+                            <i class="fa-regular fa-smile cursor-pointer"></i>
+                        </div>
+                        <button class="bg-[#1D9BF0] text-white px-4 py-2 rounded-full">Post</button>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Expanded Posts Section -->
+            <div class="posts">
+                <!-- Existing Posts from Previous Version -->
+                <div class="post border-b border-[#2F3336] p-4 flex hover:bg-[#16181C] cursor-pointer">
+                    <img src="https://media.licdn.com/dms/image/v2/D4D03AQFILZiQC4Amlg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1694926418143?e=2147483647&v=beta&t=8v-7wFWmc5IP1B3emd1HKuAtcMyGfao_C8apFiOxK28" alt="Profile" class="w-12 h-12 rounded-full mr-4">
+                    <div class="flex-grow">
+                        <div class="flex items-center space-x-2 mb-2">
+                            <span class="font-bold text-white">Anas Raheem</span>
+                            <span class="text-[#71767B] text-sm">@anas</span>
+                            <span class="text-[#71767B] text-sm">· 2h</span>
+                        </div>
+                        <p class="text-white mb-3">Just another day in the tech world! Exciting times ahead for innovation and creativity. 🚀 #TechLife</p>
+                        <div class="flex justify-between text-[#71767B] text-sm">
+                            <div class="flex items-center space-x-2 hover:text-[#1D9BF0]">
+                                <i class="fa-regular fa-comment"></i>
+                                <span>45</span>
+                            </div>
+                            <div class="flex items-center space-x-2 hover:text-green-500">
+                                <i class="fa-solid fa-retweet"></i>
+                                <span>23</span>
+                            </div>
+                            <div class="flex items-center space-x-2 hover:text-[#F91880]">
+                                <i class="fa-regular fa-heart"></i>
+                                <span>189</span>
+                            </div>
+                            <div class="flex items-center space-x-2 hover:text-[#1D9BF0]">
+                                <i class="fa-solid fa-upload"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Existing AI Insights Post -->
+                <div class="post border-b border-[#2F3336] p-4 flex hover:bg-[#16181C] cursor-pointer">
+                    <img src="https://static.vecteezy.com/system/resources/previews/004/885/882/non_2x/ai-artificial-intelligence-logo-in-hands-artificial-intelligence-and-machine-learning-concept-sphere-grid-wave-with-binary-code-big-data-innovation-technology-neural-networks-illustration-vector.jpg" alt="Profile" class="w-12 h-12 rounded-full mr-4">
+                    <div class="flex-grow">
+                        <div class="flex items-center space-x-2 mb-2">
+                            <span class="font-bold text-white">AI Insights</span>
+                            <span class="text-[#71767B] text-sm">@aiinsights</span>
+                            <span class="text-[#71767B] text-sm">· 5h</span>
+                        </div>
+                        <p class="text-white mb-3">Breaking: New AI advancements are transforming industries faster than we ever imagined. Stay tuned for more updates! 🤖 #AIRevolution</p>
+                        <div class="flex justify-between text-[#71767B] text-sm">
+                            <div class="flex items-center space-x-2 hover:text-[#1D9BF0]">
+                                <i class="fa-regular fa-comment"></i>
+                                <span>78</span>
+                            </div>
+                            <div class="flex items-center space-x-2 hover:text-green-500">
+                                <i class="fa-solid fa-retweet"></i>
+                                <span>56</span>
+                            </div>
+                            <div class="flex items-center space-x-2 hover:text-[#F91880]">
+                                <i class="fa-regular fa-heart"></i>
+                                <span>342</span>
+                            </div>
+                            <div class="flex items-center space-x-2 hover:text-[#1D9BF0]">
+                                <i class="fa-solid fa-upload"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- New Picture Post -->
+                <div class="post border-b border-[#2F3336] p-4 flex hover:bg-[#16181C] cursor-pointer">
+                    <img src="https://img.freepik.com/free-photo/man-woman-holding-each-other-drinking-coffee_23-2148301331.jpg" alt="Profile" class="w-12 h-12 rounded-full mr-4">
+                    <div class="flex-grow">
+                        <div class="flex items-center space-x-2 mb-2">
+                            <span class="font-bold text-white">Travel Lover</span>
+                            <span class="text-[#71767B] text-sm">@traveljunkie</span>
+                            <span class="text-[#71767B] text-sm">· 1d</span>
+                        </div>
+                        <p class="text-white mb-3">Breathtaking sunset at the mountain peak! Nature never fails to amaze. 🏔️ #TravelDiaries</p>
+                        <div class="post-image mb-3">
+                            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D" alt="Sunset" class="w-full rounded-2xl">
+                        </div>
+                        <div class="flex justify-between text-[#71767B] text-sm">
+                            <div class="flex items-center space-x-2 hover:text-[#1D9BF0]">
+                                <i class="fa-regular fa-comment"></i>
+                                <span>112</span>
+                            </div>
+                            <div class="flex items-center space-x-2 hover:text-green-500">
+                                <i class="fa-solid fa-retweet"></i>
+                                <span>45</span>
+                            </div>
+                            <div class="flex items-center space-x-2 hover:text-[#F91880]">
+                                <i class="fa-regular fa-heart"></i>
+                                <span>678</span>
+                            </div>
+                            <div class="flex items-center space-x-2 hover:text-[#1D9BF0]">
+                                <i class="fa-solid fa-upload"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Video Post -->
+                <div class="post border-b border-[#2F3336] p-4 flex hover:bg-[#16181C] cursor-pointer">
+                    <img src="https://www.worldbank.org/content/dam/photos/780x439/2017/sep-2/MY_Future_of_manufacturing_780x439.JPG" alt="Profile" class="w-12 h-12 rounded-full mr-4">
+                    <div class="flex-grow">
+                        <div class="flex items-center space-x-2 mb-2">
+                            <span class="font-bold text-white">Tech Innovations</span>
+                            <span class="text-[#71767B] text-sm">@techinnovate</span>
+                            <span class="text-[#71767B] text-sm">· 12h</span>
+                        </div>
+                        <p class="text-white mb-3">Check out this incredible drone footage of our latest tech prototype! 🚁 #Innovation</p>
+                        <div class="post-video mb-3 relative">
+                            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGVjaCUyMHZpZGVvfGVufDB8fDB8fHww" alt="Video Thumbnail" class="w-full rounded-2xl">
+                            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                                <i class="fa-solid fa-play text-white text-4xl bg-[#1D9BF0] bg-opacity-70 rounded-full p-3"></i>
+                            </div>
+                        </div>
+                        <div class="flex justify-between text-[#71767B] text-sm">
+                            <div class="flex items-center space-x-2 hover:text-[#1D9BF0]">
+                                <i class="fa-regular fa-comment"></i>
+                                <span>234</span>
+                            </div>
+                            <div class="flex items-center space-x-2 hover:text-green-500">
+                                <i class="fa-solid fa-retweet"></i>
+                                <span>87</span>
+                            </div>
+                            <div class="flex items-center space-x-2 hover:text-[#F91880]">
+                                <i class="fa-regular fa-heart"></i>
+                                <span>456</span>
+                            </div>
+                            <div class="flex items-center space-x-2 hover:text-[#1D9BF0]">
+                                <i class="fa-solid fa-upload"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Third Div -->
+
+
+
+
+
+        <div class="third w-full bg-black">
+            <div class="search text-[#71767B] m-3 ms-[-6px]">
+                <i class="fa-solid fa-magnifying-glass relative left-[40px] z-10"></i>
+                <input type="text" placeholder="Search"
+                    class="w-1/2 rounded-full px-11 py-2 ps-12 bg-[#202327] focus: text-[#71767B] z-0">
+            </div>
+            <div class="whats m-3  bg-[#202327] w-1/2 py-5 rounded-xl space-y-3">
+                <h1 class="text-xl font-bold px-3 cursor-default">Whats Happening</h1>
+
+                <div class="item hover:bg-gray-800 cursor-pointer p-3 px-4">
+                    <div class=" text-sm text-[#c7c8c9] ">Trending in Pakistan</div>
+                    <div class="font-bold text-sm text-[#c7c8c9] ">#Palestine War</div>
+                    <div class=" text-sm text-[#71767B] ">45.5K Posts</div>
+                </div>
+
+                <div class="item hover:bg-gray-800 cursor-pointer p-3 px-4">
+                    <div class=" text-sm text-[#c7c8c9] ">AI Leverage</div>
+                    <div class="font-bold text-sm text-[#c7c8c9] ">#AI #Artificial Intellegence</div>
+                    <div class=" text-sm text-[#71767B] ">23K Posts</div>
+                </div>
+
+
+                <div class="item hover:bg-gray-800 cursor-pointer p-3 px-4">
+                    <div class=" text-sm text-[#c7c8c9] ">ECMA Script Changed</div>
+                    <div class="font-bold text-sm text-[#c7c8c9] ">#Developer #Devs</div>
+                    <div class=" text-sm text-[#71767B] ">75.3K Posts</div>
+                </div>
+
+                <div class="item hover:bg-gray-800 cursor-pointer p-3 px-4">
+                    <div class=" text-sm text-[#c7c8c9] ">US Stock Market</div>
+                    <div class="font-bold text-sm text-[#c7c8c9] ">#finance</div>
+                    <div class=" text-sm text-[#71767B] ">56.8K Posts</div>
+                </div>
+
+            </div>
+
+            <div class="who m-3  bg-[#202327] w-1/2 py-5 px-2 rounded-xl space-y-2">
+                <h1 class="text-xl font-bold px-3 cursor-default">Who to Follow</h1>
+
+                <!-- <div class="item hover:bg-gray-800 cursor-pointer p-3 px-4">
+                    <div class=" text-sm text-[#c7c8c9] ">Trending in Pakistan</div>
+                    <div class="font-bold text-sm text-[#c7c8c9] ">#Palestine War</div>
+                    <div class=" text-sm text-[#71767B] ">45.5K Posts</div>
+                </div> -->
+
+
+
+
+                <div class="h-full flex items-center border-gray-800 cursor-pointer  border py-2 px-1 rounded-lg">
+                    <img alt="team"
+                        class="w-8 h-8 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                        src="https://hips.hearstapps.com/hmg-prod/images/how-to-keep-ducks-call-ducks-1615457181.jpg?crop=0.670xw:1.00xh;0.157xw,0&resize=980:*">
+                    <div class="flex-grow">
+                        <h2 class="text-white title-font font-medium text-sm">Arooj fatima</h2>
+                        <p class="text-[#71767B] text-sm">Batak</p>
+                    </div>
+                    <button
+                        class="flex ml-auto text-[#0F1419] text-sm bg-[#D7DBDC] border-0 py-1 px-3 font-semibold focus:outline-none hover:bg-[#babcbd] rounded-full">Follow</button>
+
+                </div>
+                <div class="h-full flex items-center border-gray-800 cursor-pointer  border py-2 px-1 rounded-lg">
+                    <img alt="team"
+                        class="w-8 h-8 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRinI6Erx5OZF_Ctnn5PLxaMo9eZ_rupUq8nQ&s">
+                    <div class="flex-grow">
+                        <h2 class="text-white title-font font-medium text-sm">Shams ul Haq</h2>
+                        <p class="text-[#71767B] text-sm">Badmoos</p>
+                    </div>
+                    <button
+                        class="flex ml-auto text-[#0F1419] text-sm bg-[#D7DBDC] border-0 py-1 px-3 font-semibold focus:outline-none hover:bg-[#babcbd] rounded-full">Follow</button>
+                </div>
+                <div class="h-full flex items-center border-gray-800 cursor-pointer  border py-2 px-1 rounded-lg">
+                    <img alt="team"
+                        class="w-8 h-8 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                        src="https://img.freepik.com/premium-photo/fighting-girl-with-fire-her-arm_1033760-4.jpg">
+                    <div class="flex-grow">
+                        <h2 class="text-white title-font font-medium text-sm">Areej Sajid</h2>
+                        <p class="text-[#71767B] text-sm">Sigma Girl</p>
+                    </div>
+                    <button
+                        class="flex ml-auto text-[#0F1419] text-sm bg-[#D7DBDC] border-0 py-1 px-3 font-semibold focus:outline-none hover:bg-[#babcbd] rounded-full">Follow</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
